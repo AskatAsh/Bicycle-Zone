@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom tailwind styles -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bike-primary': '#ffcf5f',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 
 <body>
@@ -49,7 +62,7 @@
                         </ul>
                     </div>
                     <div class="px-0 lg:px-4">
-                        <a class="btn btn-warning">Login</a>
+                        <a class="btn bg-bike-primary">Login</a>
                     </div>
                 </div>
             </div>
